@@ -15,7 +15,7 @@ BatayanPH/
 
 ## Medallion Architecture
 - **Bronze**: Raw CSV data ingested as-is with row hash, source file, timestamp
-- **Silver**: Cleaned — region names standardized (33→17 variants), deduped, nulls imputed, totals validated
+- **Silver**: Cleaned - region names standardized (33→17 variants), deduped, nulls imputed, totals validated
 - **Gold**: Star schema (1 fact + 4 dims) + 6 analytical views for SDG 4 KPIs
 
 ## Key Findings
@@ -25,9 +25,9 @@ BatayanPH/
 - Data quality pass rate: 94.9% (215 duplicates removed, 37 totals recalculated)
 
 ## SDG Alignment
-- SDG 4.1 — Completion: JHS cohort survival monitoring
-- SDG 4.5 — Gender parity: GPI tracking by grade level
-- SDG 4.b — Recovery: COVID impact vs enrollment rebound
+- SDG 4.1 - Completion: JHS cohort survival monitoring
+- SDG 4.5 - Gender parity: GPI tracking by grade level
+- SDG 4.b - Recovery: COVID impact vs enrollment rebound
 
 ## To Run
 ```bash
