@@ -1,4 +1,4 @@
-# BatayanPH — Medallion ETL Pipeline for Philippine Education Analytics
+# BatayanPH - Medallion ETL Pipeline for Philippine Education Analytics
 
 ## Project Structure
 ```
